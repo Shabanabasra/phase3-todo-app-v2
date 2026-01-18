@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "functions": {
+    "app/**/*": {
+      "memory": "1024MB",
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_API_URL": "$NEXT_PUBLIC_API_URL",
+    "NEXT_PUBLIC_BETTER_AUTH_URL": "$NEXT_PUBLIC_BETTER_AUTH_URL"
+  }
+}
